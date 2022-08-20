@@ -7,53 +7,33 @@
  * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
  */
 
-@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+@import url("https://darkkillerxl.github.io/Red-n-Black/Red%20'n%20Black%20Import.css");
 
+/* Customize */
 :root {
-	--app-bg: url(https://i.imgur.com/vfofkah.png);
-	--app-blur: 6px;
-	--app-margin: 24px;
-	--app-radius: 8px; /*	-	*/
-	
-	--accent-hue: 156;
-	--accent-saturation: 77.5%;
-	--accent-lightness: 47.1%;
-	--accent-opacity: 1;
-	--accent-text-color: #000; /*	-	*/
+    /* Primary Color (Default: rgb(85, 8, 8) ) */
+    --color1: rgb(85, 8, 8);
+    /* Secondary Color (Default: rgb(56, 0, 0) ) */
+    --color2: rgb(56, 0, 0);
 
-	--sidebar-color: rgba(0,0,0,0.4);
-	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
+    /* Primary Color Buttons On Hover (Default: rgb(95, 9, 9) ) */
+    --color3: rgb(95, 9, 9);
+    /* Secondary Color Buttons On Hover (Default: rgb(66, 0, 0) ) */
+    --color4: rgb(71, 0, 0);
 
-	--message-color: rgba(0,0,0,0.4);
-	--message-radius: 8px;
-	--message-padding-top: 8px;
-	--message-padding-side: 8px; /*	-	*/
-	
-	--reply-hue: 226;
-	--reply-saturation: 77.4%;
-	--reply-lightness: 61.8%;
-	--reply-opacity: 1; /*	-	*/
+    /* Tertiary Color (Default: darkred) */
+    --color10: darkred;
 
-	--textarea-color: 255,255,255;
-	--textarea-alpha: 0.1;
-	--textarea-alpha-focus: 0.15;
-	--textarea-text-color: #fff;
-	--textarea-radius: 22px;  /*	-	*/
+    /* Accent Color (Default: red) */
+    --accent-color: red;
 
-	--card-color: rgba(0,0,0,0.4);
-	--card-color-hover: rgba(0,0,0,0.5);
-	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
-	
-	--button-height: 32px;
-	--button-padding: 0 16px;
-	--button-action-color: #000;
-	--button-radius: 16px; /*	-	*/
+    /* Background Image (change the url inside the brackets, default: url(https://i.imgur.com/6rlzsb8.png); ) */
+    --background-url: url(https://i.imgur.com/vfofkah.png);
+    /* Background Color, appears for example behind the server list (Default: black) */
+    --background-color: black;
 
-	--interactive-normal: #aaa;
-	--interactive-hover: #ddd;
-	--interactive-active: #fff;
-	--interactive-muted: #777; /*	-	*/
-
-	--background-modifier-hover: rgba(255,255,255,0.075);
-	--background-modifier-selected: rgba(255,255,255,0.125);
+    /* Server image/profile pictures roundness (Default: 0px) */
+    --server-list-rounding: 0px;
+    /* Width for server icons in folders (Default: 40px) */
+    --icon-width: 40px;
 }
